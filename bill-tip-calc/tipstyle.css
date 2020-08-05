@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #cecece;
+    
+}
+
+#container {
+    background: #97b8e9;
+    height: 530px;
+    width: 300px;
+    margin: 100 auto;
+    border-radius: 20px;
+    
+    
+}
+
+h1 {
+    background: gray;
+    color: white;
+    margin: 0;
+    font-size: 15px;
+    padding: 10px 80px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#billamt {
+    font-size: 13px;
+    color: rgb(179, 76, 76);
+    background-color: #d3cad3;
+    width: 60%;
+    padding: 5px 5px 8px 8px; 
+}
+
+#numpeople {
+    font-size: 13px;
+    color: rgb(179, 76, 76);
+    background-color: #d3cad3;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+}
+
+#serviceQuality {
+    width: 60%;
+    height: 30px;
+    
+}
+
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: #ad133a;
+    outline: none;
+    color: white;
+}
+
+button:hover {
+    background: #4c2827;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+#totaltip {
+    font-size: 25px;
+    margin-top: 5px;
+    text-align: right;
+}
+
+#totaltip::before {
+    content: "Tip Amount";
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase;
+}
+
+
+
+#totalbill {
+    font-size: 25px;
+    margin-top: 5px;
+    text-align: left;
+    
+}
+
+#totalbill::before {
+    content: "Bill Amount";
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase;
+}
