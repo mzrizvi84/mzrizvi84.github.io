@@ -1,1 +1,1 @@
-# mzrizvi84.github.io
+# This is a toy app to calculate the tip amount per person. 
