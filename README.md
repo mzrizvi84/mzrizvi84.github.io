@@ -1,1 +1,1 @@
-This is a toy app to test the java script and html skills. The app calculates the amount that each person has to pay for meal and tip on a group lunch/dinner.
+Common repo to host the quick websites.
